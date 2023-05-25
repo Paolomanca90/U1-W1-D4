@@ -6,7 +6,6 @@ body{
     text-align: center;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    line-height: 1.6em;
 }
 
 #img-bg{
@@ -64,12 +63,14 @@ main{
     text-align: left;
     padding: 50px 15px;
     box-shadow: 0px 10px 13px -7px #000000, 0px 4px 3px 4px rgba(0,0,0,0.31);
+    line-height: 1.5em;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1{
     font-size: 2.4em;
     font-weight: 500;
+    line-height: 1.3em;
 }
 
 h4{
@@ -80,7 +81,7 @@ h4{
 }
 
 p{
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 15px 0;
 }
 
@@ -191,7 +192,7 @@ aside div{
     margin-bottom: 20px;
 }
 
-aside a,p{
+aside a{
     font-size: 1.1em;
 }
 
@@ -212,6 +213,7 @@ footer{
     text-align: center;
     color: white;
     margin: auto;
+    line-height: 1.6em;
 }
 
 footer a{
