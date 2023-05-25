@@ -196,7 +196,7 @@ aside a,p{
 }
 
 aside p:first-of-type{
-    padding-top: 5px;
+    padding-top: 0;
 }
 
 aside p:nth-of-type(2){
