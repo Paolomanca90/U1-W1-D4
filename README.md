@@ -1,0 +1,1 @@
+Bolg example #3
