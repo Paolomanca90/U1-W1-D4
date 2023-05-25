@@ -5,32 +5,44 @@ body{
     width: 500px;
     text-align: center;
     margin: auto;
-    padding: 25px;
     font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
 }
 
 #img-bg{
     width: 100%;
     height: 100%;
     background-image: url(/assets/img/sfondo.png);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
+h2{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
 
+a{
+    color: darkcyan;
+    font-weight: 500;
+}
 
 /* HEADER */
 #header-box{
     width: 450px;
-    height: 400px;
+    height: 380px;
     background-image: linear-gradient(#009ac0, #006988);
     box-shadow: 0px 10px 13px -7px #000000, 0px 4px 23px 7px rgba(0,0,0,0.31);
     margin: auto;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 
 #header-box div{
-    margin: 30px;
+    margin: 30px 20px;
 }
 #header-box p{
     padding: 5px;
@@ -72,9 +84,15 @@ p{
     padding: 15px 0;
 }
 
-span{
+.normal-span{
     color: #9d365d;
     font-weight: 500;
+}
+
+.tag{
+    background-color: lightgray;
+    border-radius: 8px;
+    border: 0.5px solid black;
 }
 
 ul{
@@ -88,17 +106,12 @@ ol{
 }
 
 li{
-    font-size: 1.3em; 
+    font-size: 1.1em; 
 }
 
 caption{
     font-weight: 600;
     font-style: italic;
-}
-
-a{
-    color: darkcyan;
-    font-weight: 500;
 }
 
 iframe{
@@ -127,7 +140,7 @@ th{
     padding: 20px;
     background-color: #3468d2;
     color: white;
-    border: 0.5px solid white;
+    border: 0.1px solid white;
 }
 
 tr:nth-of-type(2), tr:nth-of-type(4){
@@ -138,19 +151,69 @@ tr:nth-of-type(2), tr:nth-of-type(4){
 
 .box-form{
     width: 100%;
-    height: 250px;
+    height: 230px;
     box-sizing: border-box;
     background-color: lightgrey;
     margin-top: 40px;
-    padding: 30px 15px;
+    padding: 25px 15px;
 }
 
-h2{
-    text-align: center;
+input{
+    height: 30px;
+    width: 250px;
+    font-size: 1.2em;
+    border: none;
+    border-bottom-style: dotted;
+    margin-top: 15px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
     font-size: 1.4em;
-    font-weight: 500;
+    color: white;
+    background-color: #3468d2;
+    border: none;
 }
 
 /* ELEMENTI NELL' ASIDE */
 
+aside h2{
+    padding: 40px;
+}
+
+aside div{
+    width: 100%;
+    height: 140px;
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+aside a,p{
+    font-size: 1.1em;
+}
+
+aside p:first-of-type{
+    padding-top: 5px;
+}
+
+aside p:nth-of-type(2){
+    text-align: right;
+}
 /* FOOTER */
+
+footer{
+    width: 90%;
+    height: 200px;
+    box-sizing: border-box;
+    background-image: linear-gradient(#005566, #2d3638);
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+footer a{
+    color: #f90de9;
+}

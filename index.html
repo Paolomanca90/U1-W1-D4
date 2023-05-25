@@ -17,24 +17,9 @@
           <img src="assets/img/logo.svg" alt="logo epicode" />
           <div><p>EPICODE - IL BLOG DEI DEVELOPERS</p></div>
           <div>
-            <p>
-              <i class="fas fa-grip-lines"></i
-              ><i class="fas fa-chevron-right"></i> HOME
-              <i class="fas fa-chevron-left"></i
-              ><i class="fas fa-grip-lines"></i>
-            </p>
-            <p>
-              <i class="fas fa-grip-lines"></i
-              ><i class="fas fa-chevron-right"></i> ARTICOLI
-              <i class="fas fa-chevron-left"></i
-              ><i class="fas fa-grip-lines"></i>
-            </p>
-            <p>
-              <i class="fas fa-grip-lines"></i
-              ><i class="fas fa-chevron-right"></i> LAVORA CON NOI
-              <i class="fas fa-chevron-left"></i
-              ><i class="fas fa-grip-lines"></i>
-            </p>
+            <p>⇒ HOME ⇐</p>
+            <p>⇒ ARTICOLI ⇐</p>
+            <p>⇒ LAVORA CON NOI ⇐</p>
           </div>
         </div>
       </header>
@@ -47,23 +32,29 @@
           </h4>
           <p>
             La prima cosa da fare è suddividere in blocchi logici la pagina,
-            identificando le <span>parti comuni</span> da applicare a tutte le
-            pagine
+            identificando le <span class="normal-span">parti comuni</span> da
+            applicare a tutte le pagine
           </p>
           <p>Le varie aree saranno quindi suddivise in:</p>
           <ul>
-            <li>Contenuti di intestazione del tag &lt;header></li>
             <li>
-              Contenuti centrali variabili del tag &lt;main> (corpo principale)
+              Contenuti di intestazione del tag
+              <span class="tag">&lt;header></span>
             </li>
             <li>
-              Contenuti di fine pagina comuni, da inserire nel tag &lt;footer>
+              Contenuti centrali variabili del tag
+              <span class="tag">&lt;main></span> (corpo principale)
+            </li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag
+              <span class="tag">&lt;footer></span>
             </li>
           </ul>
           <p>
             Formattazione del codice Il testo dell'articolo dovrà essere
             formattato per identificare tutte le parti da
-            <span>selezionare con i CSS</span>. Perciò i passi saranno:
+            <span class="normal-span">selezionare con i CSS</span>. Perciò i
+            passi saranno:
           </p>
           <ol>
             <li>
@@ -142,12 +133,36 @@
               nostra newsletter:
             </p>
             <input type="email" placeholder="Inserisci l'email" />
-            <input type="button" placeholder="Iscriviti!" />
+            <button type="submit">Iscriviti!</button>
           </div>
         </article>
-
-        <aside></aside>
+        <aside>
+          <h2>ARTICOLI CORRELATI</h2>
+          <div>
+            <a href="validare.com">Validare il codice HTML</a>
+            <p><i class="fas fa-tag"></i>Categoria: develop</p>
+            <p><i class="fas fa-calendar-alt"></i>Data: 18-9-2020</p>
+          </div>
+          <div>
+            <a href="corregger.com">Correggere la sintassi</a>
+            <p><i class="fas fa-tag"></i>Categoria: develop</p>
+            <p><i class="fas fa-calendar-alt"></i>Data: 16-9-2020</p>
+          </div>
+          <div>
+            <a href="menokb.com">Meno Kb nella pagina</a>
+            <p><i class="fas fa-tag"></i>Categoria: ottimizzazione</p>
+            <p><i class="fas fa-calendar-alt"></i>Data: 30-9-2020</p>
+          </div>
+        </aside>
       </main>
+      <footer>
+        <p>Blog Epicode @2021</p>
+        <p>
+          Testata online di Paolo Leucio Manca, registrata con prot. n.213/2018
+          - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+          <a href="info@epicode.school">info@epicode.school</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
